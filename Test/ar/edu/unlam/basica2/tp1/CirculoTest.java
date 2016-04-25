@@ -7,7 +7,7 @@ import org.junit.Test;
 public class CirculoTest 
 {
 	/* 
-		Crear los círculos con los siguientes radios, comprobando que cada uno se creó correctamente:
+		Crear los cÃ­rculos con los siguientes radios, comprobando que cada uno se creÃ³ correctamente:
 		- 2
 		- 3.7
 		- 5
@@ -15,28 +15,28 @@ public class CirculoTest
 	*/
 	
 	@Test
-	public void CalcularPerimetroDeUnCirculoDeRadio2()
+	public void calcularPerimetroDeUnCirculoDeRadio2()
 	{
 		Circulo miCirculo = new Circulo (2);
 		assertEquals (2,miCirculo.getRadio(),0.01);
 	}
 	
 	@Test
-	public void CalcularPerimetroDeUnCirculoDeRadio3Punto7()
+	public void calcularPerimetroDeUnCirculoDeRadio3Punto7()
 	{
 		Circulo miCirculo2 = new Circulo (3.7);
 		assertEquals (3.7,miCirculo2.getRadio(),0.01);
 	}
 	
 	@Test
-	public void CalcularPerimetroDeUnCirculoDeRadio5()
+	public void calcularPerimetroDeUnCirculoDeRadio5()
 	{
 		Circulo miCirculo3 = new Circulo (5);
 		assertEquals (5,miCirculo3.getRadio(),0.01);
 	}
 	
 	@Test
-	public void CalcularPerimetroDeUnCirculoDeRadio10Punto9()
+	public void calcularPerimetroDeUnCirculoDeRadio10Punto9()
 	{
 		Circulo miCirculo4 = new Circulo (10.9);
 		assertEquals (10.9,miCirculo4.getRadio(),0.01);
@@ -47,7 +47,7 @@ public class CirculoTest
 	*/
 	
 	@Test
-	public void CalcularPerimetroDeUnCirculoDeRadio9Punto8()
+	public void calcularPerimetroDeUnCirculoDeRadio9Punto8()
 	{
 		Circulo miCirculo5 = new Circulo (9.8);
 		assertNotEquals (615.73,miCirculo5.getRadio(),0.01);
@@ -58,7 +58,7 @@ public class CirculoTest
 	*/
 	
 	@Test
-	public void CalcularPerimetroDeUnCirculoDeRadio16Punto6()
+	public void calcularPerimetroDeUnCirculoDeRadio16Punto6()
 	{
 		Circulo miCirculo6 = new Circulo (16.6);
 		assertNotEquals (865.67,miCirculo6.getRadio(),0.01);
